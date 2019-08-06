@@ -1,0 +1,78 @@
+#col-Phone{
+	position:relative;
+	text-align:center;
+}
+#info{
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  width:100%;
+  color:#FFF;
+  position:absolute;
+  top:0;
+  height:195px;
+  padding:10px;
+  transition:0.5s;
+  opacity:0;
+  border-radius:5px;
+  overflow: auto;
+}
+#col-Phone:hover #info{
+	opacity:1;
+}
+
+#btnBuy{
+  background-color:#F93;
+  color: white;
+  border:none;
+  padding: 11px;
+  width:100px;
+  text-align: center;
+  font-size: 16px;
+  border-radius:5px;
+  transition:0.5s;
+}
+#btnDetail{
+  background-color:#F93;
+  color: white;
+  border:none;
+  padding: 11px;
+  width:100px;
+  text-align: center;
+  font-size: 16px;
+  border-radius:5px;
+  transition:0.5s;
+}
+#btnBuy:hover{
+	background-color:#f1f1f1f1;
+	color:#F93;
+}
+#btnDetail:hover{
+	background-color:#f1f1f1;
+	color:#F93;
+}
+#price{
+	color:red;
+	font-size:15px;
+}
+#form-nav{
+	padding:4px;
+	border-radius:5px;
+}
+#search{
+    position: absolute;
+    width: 175px;
+    background-color: #FFF;
+    z-index: 9999;
+    border-radius: 5px;
+}
+#search a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+#search a:hover{
+    background-color: #f1f1f1f1;
+}
+
+
